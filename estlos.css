@@ -152,7 +152,7 @@ footer {
 .nav-buttons {
     position: absolute;
     top: 20px;
-    right: -23px;
+    right: -90px;
     display: flex;
     gap: 10px;
     z-index: 1000;
