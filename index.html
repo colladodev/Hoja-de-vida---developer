@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elvin Collado - Software Engineer</title>
+    <link rel="stylesheet" href="estlos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <div id="loading-screen" class="loading-screen">
+        <div class="lds-spinner">
+          <div></div><div></div><div></div><div></div><div></div>
+          <div></div><div></div><div></div><div></div><div></div>
+          <div></div><div></div>
+        </div>
+      </div>
+    <div id="particles-js"></div>
+    <header>
+        <div class="container">
+            <div class="nav-buttons">
+                <button class="nav-button" onclick="scrollToSection('about')">Sobre Mi</button>
+                <button class="nav-button" onclick="scrollToSection('experience')">Experiencia</button>
+                <button class="nav-button" onclick="scrollToSection('education')">Educación</button>
+                <button class="nav-button" onclick="scrollToSection('skills')">Habilidades</button>
+            </div>
+            <img src="img/elvinv2.png" alt="Elvin Collado" class="profile-pic">
+            <h1>Elvin Collado</h1>
+            <p class="job-title">Estudiante Ingenieria Software</p>
+            <div class="contact-info">
+                <span class="contact-item">📧 elvismanuel2@gmail.com</span>
+                <span class="contact-item">📞 809-756-9225</span>
+                <span class="contact-item">🌐 https://home-colladodev.netlify.app/</span>
+            </div>
+        </div>
+        
+    </header>
+
+    <main class="container">
+        
+        <section id="about">
+            <h2>Sobre Mi</h2>
+            <p>Nací el 9 de septiembre de 2003 en la República Dominicana. Desde muy joven, me cautivaron la computadora y la programación. Mis padres, Milagros Báez y Félix Collado, vieron desarrollar esta fascinación desde temprana edad. Crecí en un ambiente humilde en el campo, donde asistir a la escuela significaba caminar largas distancias. Pero esto nunca fue un obstáculo para mi determinación de obtener una educación de calidad. Fue en el Liceo Técnico Canadá donde mi pasión por la programación realmente floreció. Allí, aprendí los fundamentos de la informática y comencé a explorar el emocionante mundo del código. Actualmente, estudio en la Universidad Abierta para Adultos (UAPA), donde curso la carrera de Ingeniería en Software.</p>
+        </section>
+
+        <section id="experience">
+            
+            <h2>Experiencia Laboral</h2>
+            <div class="experience-grid">
+                <div class="experience-item">
+                    <h3>Especialista en Gestión de Datos</h3>
+                    <p></strong> | 2022-2024</p>
+                    <p>Yo trabajo como gestor de datos para centros médicos de Estados Unidos, manejando Excel y otras herramientas relacionadas para asegurar la precisión y eficiencia en la gestión de la información médica.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Front End   </h3>
+                    <p><strong>Independiente</strong> | 2022 - 2024</p>
+                    <p>Soy desarrollador web independiente, especializado en HTML y CSS, creando sitios web funcionales y atractivos visualmente para diversos clientes.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id ="education">
+            <h2>Educación</h2>
+            <div class="education-grid">
+                <div class="education-item">
+                    <h3>Liceo Tecnico Canadá</h3>
+                    <p><strong>Mi estudios fueron desde: 2016 - 2020 </strong> | Estudié en el Liceo Técnico Canadá desde 2016 hasta 2020, donde formé mis estudios y me enamoré de la informática y el desarrollo web.</p>
+                </div>
+                <div class="education-item">
+                    <h3>Universidad Abierta Para Adulto (UAPA)</h3>
+                    <p><strong>Estudio Actualmente | 2024</strong> Estudio en la Universidad Abierta para Adultos (UAPA) la carrera de Ingeniería en Software desde 2021 hasta ahora actualmente 2024.  </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Habilidades</h2>
+            <div class="skills-grid">
+                <span class="skill-item"><i class="fab fa-html5"></i>HTML5</span>
+                <span class="skill-item"><i class="fab fa-css3-alt"></i>CSS3</span>
+                <span class="skill-item"><i class="fab fa-python"></i>Python</span>
+                <span class="skill-item"><i class="fas fa-database"></i>SQL Server</span>
+                <span class="skill-item"><i class="fas fa-file-excel"></i>Excel</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Contactame</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Elvin Collado , Derecho Reservado</p>
+        </div>
+    </footer>
+
+    <button class="scroll-to-top" id="scrollToTop" title="Go to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+</body>
+<script src="scripts.js"></script>
+<script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+<script src="Js/particles.js"></script>
+<script src="Js/app.js"></script>
+<script src="Js/index.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>
